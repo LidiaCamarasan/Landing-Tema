@@ -339,6 +339,102 @@ body > section:last-child{
     padding:10px;
 }
 
+.section-7-row > h2{
+    font-weight:700;
+    font-size:  2.12em;
+    line-height:51px;
+}
+
+.section-7-row > p{
+    font-weight:500;
+    font-size: 1em;
+    line-height: 26px;
+}
+
+.section-7-col{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+
+.border-div{
+    border: 1px solid  #DEDEDE;
+    border-radius: 8px;
+    margin: 0px 20px;
+    margin-left:0px;
+   
+ 
+}
+
+.section-7-image{
+    width:348px;
+    height:185px;
+    border-radius: 8px 8px 0px 0px;
+    pointer-events: none;
+}
+
+.align-2-lines{
+    width: 300px;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+    margin-top:12px
+ 
+}
+
+
+.section-7-col h6{
+    font-weight: 400;
+    font-size:1em;
+    line-height:28px;
+    color: #22343D;
+}
+
+.section-7-col p{
+    font-weight: 700;
+    font-size:1.5em;
+    line-height:40px;
+    color: #22343D;
+}
+
+.align-text-image{
+    flex-direction: column;
+    align-items: flex-start;
+    padding:0px 20px ;
+   
+}
+
+.align-text-image > h6{
+    margin: 20px 0px;
+   
+}
+
+h6 > label{
+    font-weight: bold;
+}
+
+p > label{
+    font-weight: bold;
+    color: #02897A;
+}
+.three-dots{
+   height:16px;
+   width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 64px;
+    pointer-events: none;
+   
+    
+}
+
+
+
+
+
+
 
 @media screen and (max-width:890px){
     .menu-icon{
@@ -421,6 +517,21 @@ body > section:last-child{
     justify-content: center;
     align-items: center;
 }
+
+.section-7-col{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-div{
+    border: 0px;
+    padding: 10px 0px
+}
+
+
 }
 
 @media screen and (max-width: 600px){
@@ -466,7 +577,35 @@ body > section:last-child{
     align-items: center;
 }
 
+.section-7-col{
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-7-row{
+    text-align: center
+}
+
+.align-text-image{
+    padding:0px
+}
+
+.three-dots{
+    display: none
+}
+
+.border-div{
+    border: 0px;
+    padding: 10px 0px;
+    margin-right:0px
+}
+
 
 }
+
+
 
 
