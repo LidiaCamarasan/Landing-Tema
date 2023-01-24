@@ -616,6 +616,52 @@ p > label{
     width:45%
 }
 
+.last-section-pic{
+    width:40px;
+    height:40px;
+    margin:10px;
+    margin-top:20px
+}
+
+
+.last-section-4-col{
+    max-width: 1120px;
+    justify-content: space-between;
+    margin-left:22%
+}
+
+.last-section-4-col > div >h3{
+    font-weight:500;
+    font-size:20px;
+    line-height: 30px;
+    margin-top:30px;
+   
+
+}
+
+.last-section-4-col > div >h5{
+    font-weight:400;
+    font-size:16px;
+    line-height: 15px;
+}
+
+input{
+    width:120%;
+    height:48px;
+    margin:25px 0;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+.last-p{
+    text-align: center;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 30px;
+    margin-top: 35px
+}
+
 
 
 
@@ -725,6 +771,31 @@ p > label{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.last-section-4-col{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    margin:43px
+}
+.app-logo-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width:100%
+}
+.button-section-ten{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
@@ -858,6 +929,28 @@ margin:17px 20px
 .section-ten-2-col .content-right-col{
     width:100%;
 }
+
+.last-section-4-col{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    margin:43px
+    
+}
+.app-logo-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width:100%
+}
+
+
+
 
 
 }
